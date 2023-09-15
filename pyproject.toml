@@ -1,0 +1,20 @@
+[project]
+name = "hr"
+version = "1.0.0"
+authors = [{ name = "Martin Neufeld" }]
+description = "Prints horizontal rules."
+readme = { file = "README.adoc", content-type = "text/plain" }
+license = { file = "LICENSE" }
+requires-python = ">=3.11"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/shyguys/hr"
+"Bug Tracker" = "https://github.com/shyguys/hr/issues"
+
+[project.scripts]
+hr = "hr.__main__:main"
