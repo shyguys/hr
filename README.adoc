@@ -1,0 +1,29 @@
+= hr
+:toc: auto
+
+Prints horizontal rules.
+
+== Setup
+
+Install python:
+
+[source, shell]
+----
+brew install python3
+----
+
+Install hr:
+
+[source, shell]
+----
+pip install .
+----
+
+== Usage
+
+Please refer to the script's usage by running:
+
+[source, shell]
+----
+hr --help
+----
